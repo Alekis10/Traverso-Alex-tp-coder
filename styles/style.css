@@ -122,10 +122,26 @@ li {
     transform: translate(-50%, -50%);
 }
 
+.botoncontactame:hover {
+    font-size: 1.9em;
+    transition: all 0.5s;
+}
+
 .banner__imagen {
     height: calc(100vh - 100px);
     width: 100%;
     object-fit: cover;
+}
+
+.banner__contenedor {
+    animation: 2s aparicion 1; 
+    transform-origin: top;
+}
+
+@keyframes aparicion
+{
+    0% { opacity: 0; }
+    50% { opacity: 0.8; }
 }
 
 .proyectos__cajaindex {
@@ -159,6 +175,10 @@ li {
     transition: all 0.5s
 }
 
+.trabajodest:hover {
+    transform: scale(1.03);
+    transition: all 0.5s;
+}
 
 .formulario {
     text-align: center;
