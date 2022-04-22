@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Sobre Mi</title>
+</head>
+<body>
+    
+
+    <header id="main-header" data-aos="zoom-in" data-aos-duration="600">
+    <nav>
+        
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <a href='../index.html'><img class="logo" src="../images/logo.png" alt="logo"></a>
+        <ul class="navegacion">
+            <li><a href="sobremi.html" class="active">Sobre mí</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="habilidades.html">Habilidades</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        </nav>
+    </header>
+
+
+    <div class="contenedorgeneral">
+
+    <section class="sobremi">
+        <h2 class="sobremi__titulo" data-aos="zoom-in" data-aos-duration="700">Sobre mí</h2>
+        <img class="sobremi__imagen" src="../images/usuario.png" alt="Alex Traverso" data-aos="zoom-in" data-aos-duration="700">
+        <br>
+        <p class="sobremi__texto" data-aos="zoom-in" data-aos-duration="700">Mi nombre es Alex Traverso, tengo 22 años y nací en Buenos Aires, Argentina. Cuando descubrí el mundo del desarrollo web me dí cuenta que era algo que me gustaba demasiado por lo que decidí adentrarme al máximo. Actualmente estoy desarrollandome en lenguajes como Html y Css.
+            <br>
+            <br>
+        Aunque también tengo conocimientos de Diseño Gráfico y la utilización de softwares como Adobe Illustrator, Photoshop, Figma e Invision. Soy una persona muy perseverante y perfeccionista así que haré lo posible porque su proyecto sea ideal!.</p>
+        <div class="sobremi__caracteristicas" data-aos="zoom-in" data-aos-duration="700">
+            <div class="cualidades">
+                <img class="cualidades__icono" src="../images/icono 1 rojo.png" alt="">
+                <p class="cualidades__titulo">Creativo</p>
+            </div>
+            <div class="cualidades">
+                <img class="cualidades__icono" src="../images/icono 2 rojo.png" alt="">
+                <p class="cualidades__titulo">Confiable</p>
+            </div>
+            <div class="cualidades">    
+                <img class="cualidades__icono" src="../images/icono 3 rojo.png" alt="">
+                <p class="cualidades__titulo">Puntual</p>
+            </div>
+            <div class="cualidades">
+                <img class="cualidades__icono" src="../images/icono 4 rojo.png" alt="">
+                <p class="cualidades__titulo">Positivo</p>
+            </div>
+        </div>
+    </section>
+<br>
+
+<section class="formulario" data-aos="zoom-in" data-aos-duration="700">
+    <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+        <h2 class="formulario__titulo">Contacto</h2>
+        <input class="formulario__nombre" type="text" required placeholder="Nombre y apellido"> <br>
+        <input class="formulario__mail" type="email" required placeholder="Email"> <br>
+        <textarea class="formulario__mensaje" type="text" placeholder="Deja tu mensaje"></textarea>
+        <br>
+        <input class="formulario__enviar" type="submit" value="Enviar">
+        <br>
+        <br>
+    </form>
+        </section>
+        
+    </div>    
+    <footer>
+            <div class="imagenesfooter">
+                <a target="blank" href='https://web.whatsapp.com/'><img class="wppfooter" src="../images/wpp.png" alt="whatsapp"></a>
+                <a target="blank" href='https://www.instagram.com/'><img class="igfooter" src="../images/ig.png" alt="instagram"></a>
+                <a target="blank" href='https://www.linkedin.com/'><img class="lkfooter" src="../images/linkedin.png" alt="linkedin"></a>
+                <a target="blank" href='https://github.com/'><img class="githubfooter" src="../images/github.png" alt="github"></a>
+            </div>
+            <p>Copyright (c) 2022 Alex Traverso <br>
+                All Rights Reserved</p>
+        </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
